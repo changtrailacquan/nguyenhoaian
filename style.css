@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+body{
+	font-family: 'Poppins', sans-serif;
+/*	background:#ff9a8d;*/
+}
+#wrapper{
+	width: 100%;
+	margin:0 auto;
+/*	padding: auto;*/
+	
+/*	border: 2px solid black;*/
+}
+.header{
+	width: 100%;
+	margin:0 auto 0;
+	
+}
+#logo{
+	width:100%;
+	margin-top:50px;
+	margin-bottom: 10px;
+/*	background:#ff9a8d;*/
+	text-align: center;
+}
+.logo{
+	width: 100%;
+	height: 200px;
+/*	background: #ff9a8d;*/
+	float: left;
+	overflow: hidden;
+}
+.logo img{
+	width: 100%;
+	margin-left:100px;
+}
+#menu ul {
+  background: #aed6dc;
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+/*  color: white;*/
+  display: inline-block;
+  width: 150px;
+  height: 60px;
+  line-height: 60px;
+  position: relative;
+}
+#menu a {
+  text-decoration: none;
+  color: #4a536b;
+  display:block;
+}
+#menu a:hover {
+  background: #ff9a8d;
+  color :black;
+  textext-align: center;
+}
+.sub-menu {
+ display: none;
+ position: absolute;
+ text-align: center;
+}
+.sub-menu li {
+  display: none;
+  position: absolute;
+}
+#menu li:hover .sub-menu {
+ display: block;
+ margin-left: 0 !important;
+}
+.main{
+	width: 850px;
+	padding:20px 0;
+/*	background: red;*/
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin:0 auto 0;
+	text-align: center;
+}
+.justbotron{
+	width:100%;
+	height:230px;
+/*	background: #f9f7f1;	*/
+}	
+.banner a{
+	background: #aed6dc;
+	padding: 10px 30px;
+	border-radius: 50px;
+	color: black;
+/*	margin-bottom:100px;*/
+	text-decoration: none;
+}
+.banner a:hover{
+	background: #ff9a8d;
+	color: white;
+}
+#box-banner{
+	width:850px;
+	height: 100%;
+}
+.banner-right{
+	width: 50%;
+	height: 300px;
+	margin-top: 70px;
+	padding: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	float: right;
+	overflow: hidden;
+}
+.banner-right a{
+	background: #aed6dc;
+	padding: 10px 30px;
+	border-radius: 50px;
+	color: black;
+/*	margin-bottom:100px;*/
+	text-decoration: none;
+}
+.banner-right a:hover{
+	background: #ff9a8d;
+	color: white;	
+}
+.banner-left{
+	width: 50%;
+	height: 100%;
+	margin-top: 30px;
+	padding: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	float: right;
+	overflow: hidden;
+}
+#about{
+	width: 850px;
+	height:100%;
+	margin-top: 430px;
+	background:#aed6dc;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	border-radius: 30px;
+}
+.about p{
+	margin: 15px 0 10px;
+}
+.about a{
+	text-decoration: none;
+	padding-bottom: 5px;
+	border-bottom:1px dotted white;
+}
+.foodter{
+	width: 100%;
+	height: 10px;
+	background: #aed6dc;
+	padding: 30px 0;
+	text-align: center;
+	color: black;
+}
+.foodter a{
+	color: black;
+	text-decoration: none;
+	padding-bottom: 5px;
+	padding: 20px;
+	box-sizing: border-box;
+}
